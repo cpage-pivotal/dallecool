@@ -1,4 +1,4 @@
-allow_k8s_contexts('tap-iterate')
+allow_k8s_contexts('gke_tap-shared-instance_europe-west2_tap-next')
 
 SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='your-registry.io/project/openai-source')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
