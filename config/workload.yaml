@@ -9,7 +9,7 @@ metadata:
 spec:
   source:
     git:
-      url: https://github.com/cpage-pivotal/dallecool
+      url: https://github.com/cpage-pivotal/openai-web-client
       ref:
         branch: testing
   build:
