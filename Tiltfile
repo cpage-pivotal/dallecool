@@ -1,4 +1,4 @@
-allow_k8s_contexts('gke_tap-shared-instance_europe-west2_tap-next')
+allow_k8s_contexts('eks.myles-cmbu-aws.us-east-2.moad')
 
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
